@@ -1,0 +1,5 @@
+.CardsContainer{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 3%;
+}
