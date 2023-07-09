@@ -3,7 +3,7 @@ import "../Styles/NavBar.css";
 import CartWidget from "../CartWidget/CartWidget";
 import logo from "./Assets/logo.svg";
 
-const NavBar = ({ quantity }) => {
+const NavBar = () => {
   const [burgerClass, setBurgerClass] = useState("burgerBar unclicked");
   const [menuClass, setMenuClass] = useState ('navMenu menuHidden');
   const [isMenuClicked, setInMenuClicked] = useState (false);
@@ -39,7 +39,7 @@ const NavBar = ({ quantity }) => {
         </div>
 
         <div>
-          <CartWidget quantity={quantity} />
+          <CartWidget/>
         </div>
       </div>
 

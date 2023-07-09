@@ -1,6 +1,6 @@
 import "../Styles/ItemListContainer.css"
 
-const ItemListContainer = ({name, description, price, img, addOne}) => {
+const ItemListContainer = ({name, description, price, img}) => {
 
     return(
         <div className='ItemCard'>
@@ -11,7 +11,6 @@ const ItemListContainer = ({name, description, price, img, addOne}) => {
                 <h4>{name}</h4>
                 <p>{description}</p>
                 <h3>{price}</h3>
-                <button onClick={addOne}>Comprar</button>
             </div>
         </div>
     )
