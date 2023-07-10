@@ -2,6 +2,10 @@
   display: none;
 }
 
+.navMenuButtonsContainer{
+  display: none;
+}
+
 .navContainer {
   background-color: #df3c75;
   display: flex;
